@@ -1,0 +1,5 @@
+export { default as detailVideoSlice } from './detailVideoSlice'
+export { default as recommendedVideosSlice } from './recommendedVideosSlice'
+export { default as searchVideosSlice } from './searchVideosSlice'
+export { default as videosSlice } from './videosSlice'
+export { default as layoutSlice } from './layoutSlice'

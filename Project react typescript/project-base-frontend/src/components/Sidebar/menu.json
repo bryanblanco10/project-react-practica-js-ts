@@ -1,0 +1,74 @@
+[
+  {
+    "path": "/propietarios",
+    "name": "Propietarios",
+    "moduleUuid": "dd4d30f5-0911-4a52-a0ff-3f0c6ed410b6",
+    "typeMenu": "menuOwner"
+  },
+  {
+    "path": "/ingresos",
+    "name": "Ingresos",
+    "moduleUuid": "3fd0124c-eba2-4085-a150-7c03e8110e80",
+    "typeMenu": "menuCheckin"
+  },
+  {
+    "path": "/salidas",
+    "name": "Salidas",
+    "moduleUuid": "4e5a8a7b-3ecc-4481-a8e6-497e902f8eae",
+    "typeMenu": "menuCheckout"
+  },
+  {
+    "path": "/tarifas",
+    "name": "Tarifas",
+    "moduleUuid": "732db3ba-d585-438b-a3ba-56cc096debf9",
+    "typeMenu": "menuRate"
+  },
+  {
+    "path": "/vehiculos",
+    "name": "Vehiculos",
+    "moduleUuid": "40fb15db-3ba8-48a4-a8c4-6be17c8a1017",
+    "typeMenu": "menuVehicle"
+  },
+  {
+    "path": "/empleados",
+    "name": "Empleados",
+    "moduleUuid": "64f83b65-281b-4a14-beaa-2a13203de5f2",
+    "typeMenu": "menuEmploye"
+  },
+  {
+    "path": "/historial-de-pagos",
+    "name": "Historial de pagos",
+    "moduleUuid": "3dc8ce3f-cdee-4f48-9b4e-c9573d5926e4",
+    "typeMenu": "menuHistoryPlan"
+  },
+  {
+    "path": "/mi-empresa",
+    "name": "Mi empresa",
+    "moduleUuid": "c2d189a9-a250-4121-a473-afd28623572e",
+    "typeMenu": "menuMyEnterprise"
+  },
+  {
+    "path": "/liquidaciones",
+    "name": "Liquidaciones",
+    "moduleUuid": "7d815776-cb9a-43d7-954f-f9e6b96d80fa",
+    "typeMenu": "menuLiquidation"
+  },
+  {
+    "path": "/mi-perfil",
+    "name": "Mi perfil",
+    "moduleUuid": "790a176a-6b41-494f-838a-14da3a6ccfe8",
+    "typeMenu": "menuMyProfile"
+  },
+  {
+    "path": "/empresas",
+    "name": "Empresas",
+    "moduleUuid": "53a1c6b6-b2f6-4137-8838-98174e655120",
+    "typeMenu": "menuEnterprise"
+  },
+  {
+    "path": "/vendedores-app",
+    "name": "Vendedores",
+    "moduleUuid": "b17d9595-39ef-4d83-8ec6-3003045f6125",
+    "typeMenu": "menuSellerApp"
+  }
+]

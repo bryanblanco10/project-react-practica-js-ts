@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+  color:black;
+  font-size: 18px;
+}
+nav a.is-active {
+  color: brown;
+  font-weight: bold;
+  pointer-events: none;
+}

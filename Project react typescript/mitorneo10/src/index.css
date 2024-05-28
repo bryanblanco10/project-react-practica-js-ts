@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(235, 234, 234);
+}
+.text-message-error::before {
+  display: inline;
+	content: "⚠ ";
+}
+
+.background-image {
+  background-image: linear-gradient(to left bottom, #014121, #28541c, #4e650f, #7b7400, #ad7e00, #c68100, #e18100, #fd8003, #fd8003, #fd8003, #fd8003, #fd8003);
+}

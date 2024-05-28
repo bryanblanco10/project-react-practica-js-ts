@@ -1,0 +1,1 @@
+export { RecommendedVideo } from './RecommendedVideo'

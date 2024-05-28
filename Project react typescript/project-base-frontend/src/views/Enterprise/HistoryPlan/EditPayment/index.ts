@@ -1,0 +1,1 @@
+export { EditPayment } from './EditPayment';

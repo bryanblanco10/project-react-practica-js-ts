@@ -1,0 +1,1 @@
+export { HistoryPlanView } from './HistoryPlan';

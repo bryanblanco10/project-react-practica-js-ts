@@ -1,0 +1,1 @@
+export { TabAssistants } from './TabAssistants';

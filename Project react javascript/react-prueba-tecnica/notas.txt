@@ -1,0 +1,21 @@
+npm install @vitejs/plugin-react -E
+npm install react react-dom -E
+
+//Configuracion de vites para react
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()]
+})
+
+-E ultimas actualizaciones
+
+No olvides installar el linter y configurarlo en el package.json
+npm install standard -D
+
+
+Test
+Instalar @playwright/Test
+configurar el playwright.config.js a .cjs
+ npx playwright test

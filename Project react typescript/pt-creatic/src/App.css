@@ -1,0 +1,248 @@
+.header {
+  background-color: rgb(209, 206, 206);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+
+.section-app {
+  background-image: url("./assets/images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  padding: 40px 100px 40px 100px;
+  height: 100vh;
+}
+
+.section-app-custom {
+  flex-direction: column;
+}
+
+.section-app::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(235, 231, 231, 0.5);
+  opacity: 0.7; 
+}
+
+.section-app .content {
+  z-index: 2;
+  background-color: rgba(228, 225, 225, 0.5);
+  padding: 20px;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  overflow: hidden;
+}
+
+.section-app .content-3 {
+  /* width: 100%; */
+  padding-left: 40px;
+}
+
+.section-app .mapa {
+  margin-right: 100px;
+}
+
+.content-2 {
+  z-index: 2;
+}
+
+.section-app .imgs .img-first {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.section-app .imgs .img-first img {
+  width: 300px;
+  height: 300px;
+}
+
+.section-app .imgs .img-second {
+  display: flex;
+  justify-content: center;
+}
+
+.section-app .imgs .img-second img {
+  width: 140px;
+  height: 140px;
+}
+
+.section-app .imgs .img-second img:first-child {
+  margin-right: 20px;
+}
+
+.section-app .follow-us {
+  padding: 10px 10px 10px 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.section-app .follow-us p {
+  font-size: 28px;
+  color: white;
+  font-weight: normal;
+}
+
+
+.section-app .follow-us .content-iconos img {
+  width: 36px;
+  margin-right: 10px;
+}
+.section-app .follow-us .content-iconos img:first-child {
+  width: 48px;
+  margin-right: 4px;
+}
+
+.content-mision {
+  margin-bottom: 20px;
+}
+
+.content-mision h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.content-mision p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.content-mision p span {
+  text-decoration: underline 1.5px;
+}
+
+.content-custom {
+  display: flex;
+}
+
+.content-custom .content-logo img {
+  margin-left: 80px;
+  width: 300px;
+}
+
+.section-app .imgs-register .img-first {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.section-app .imgs-register h1 {
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.section-app .imgs-register .img-first img {
+  width: 300px;
+  height: 150px;
+}
+
+.content-fom {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.form input {
+  border: none;
+  background-color: rgb(194, 193, 193);
+  width: 300px;
+  height: 42px;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+}
+
+.form button {
+  background-color: rgb(238, 173, 52);
+  color: black;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: .5px;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+}
+
+.content-fom a {
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.content-fom .register {
+  background-color: transparent;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid white;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  letter-spacing: .5px;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  -ms-border-radius: 11px;
+  -o-border-radius: 11px;
+}
+
+.loader {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  animation: spin89345 1s linear infinite;
+}
+
+@keyframes spin89345 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

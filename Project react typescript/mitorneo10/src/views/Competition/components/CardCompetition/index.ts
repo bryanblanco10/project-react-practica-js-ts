@@ -1,0 +1,1 @@
+export { CardCompetition } from './CardCompetition';

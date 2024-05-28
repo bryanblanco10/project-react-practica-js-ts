@@ -1,0 +1,1 @@
+export { InputCalculateComponent } from './InputCalculateComponent';

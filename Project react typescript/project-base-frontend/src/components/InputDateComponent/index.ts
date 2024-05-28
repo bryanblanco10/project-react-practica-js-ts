@@ -1,0 +1,1 @@
+export { InputDateComponent } from './InputDateComponent';

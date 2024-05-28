@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Skranji:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #d1cfcf;
+	font-family: 'Poppins', sans-serif;
+}
+
+button {
+	white-space: nowrap !important;
+	font-weight: normal !important;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Poppins', sans-serif !important;
+}
+
+input {
+	font-size: 16px !important;
+	padding-bottom: 6px !important;
+	font-family: 'Poppins', sans-serif;
+}
+
+label {
+	font-size: 14px !important;
+	font-family: 'Poppins', sans-serif;
+}
+
+.form-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}

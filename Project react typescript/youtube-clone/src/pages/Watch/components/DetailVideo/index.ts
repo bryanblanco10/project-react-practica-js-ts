@@ -1,0 +1,1 @@
+export { DetailVideo } from './DetailVideo'

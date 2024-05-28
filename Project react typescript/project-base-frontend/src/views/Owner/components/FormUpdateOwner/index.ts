@@ -1,0 +1,1 @@
+export { FormUpdateOwner } from './FormUpdateOwner';

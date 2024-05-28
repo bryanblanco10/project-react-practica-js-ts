@@ -1,0 +1,1 @@
+export { TabsClassification } from './TabsClassification';

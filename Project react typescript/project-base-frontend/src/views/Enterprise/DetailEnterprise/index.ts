@@ -1,0 +1,1 @@
+export { DetailEnterprise } from './DetailEnterprise';

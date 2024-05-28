@@ -1,0 +1,4 @@
+-useMemo, useCallback
+-Terminar buscador
+-Agregar skeleton
+-Loading del navbar

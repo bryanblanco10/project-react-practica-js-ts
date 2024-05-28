@@ -1,0 +1,1 @@
+export { ModalPrint } from './ModalPrint';

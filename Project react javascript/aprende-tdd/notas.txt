@@ -1,0 +1,2 @@
+Para provar mejor los eventos usar esta libreria
+https://testing-library.com/docs/user-event/intro/

@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&family=Skranji:wght@700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #d1cfcf;
+	font-family: 'Poppins', sans-serif;
+}
+
+button {
+	white-space: nowrap !important;
+	font-weight: normal !important;
+}
+
+.text-logo {
+	background-image: linear-gradient(to right, #f0c419, #f0c419, #f0c419, #f0c419, #f0c419, #e0c418, #d1c41a, #c1c31f, #9ec02e, #7cbb3e, #57b54e, #29ae5d);
+	color: black;
+	font-family: 'Skranji', cursive !important;
+}
+
+.bg-app {
+	background-color: #FDD32E;
+	color: black;
+}
+
+.text-message-error::before {
+  display: inline;
+	content: "⚠ ";
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	font-family: 'Poppins', sans-serif !important;
+}
+
+input {
+	font-size: 16px !important;
+	padding-bottom: 6px !important;
+	font-family: 'Poppins', sans-serif;
+}
+
+label {
+	font-family: 'Poppins', sans-serif;
+}
+
+.form-disabled {
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-cart {
+	left: 50%;
+  transform: translate(-50%, -50%);
+	bottom: -7%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.css-13cymwt-control {
+  min-height: 44px !important;
+  border-width: 1px !important;
+  font-size: 16px !important;
+  border-color: rgb(158 158 158 / 1) !important;
+  color: rgb(69 90 100 / 1) !important;
+  font-weight: 400 !important;
+  line-height: 1.25rem !important;
+  font-family: Roboto, sans-serif !important;
+  background-color: transparent !important;
+  border-radius: 0.375rem !important;
+  -webkit-border-radius: 0.375rem !important;
+  -moz-border-radius: 0.375rem !important;
+  -ms-border-radius: 0.375rem !important;
+  -o-border-radius: 0.375rem !important;
+}
+
+.css-13cymwt-control.error {
+  border-color: #c94343 !important;
+}
+.css-w9q2zk-Input2,
+.css-1jqq78o-placeholder,
+.css-1dimb5e-singleValue {
+  color: rgb(69 90 100 / 1) !important;
+  font-size: 16px !important;
+}
+
+.css-t3ipsp-control {
+  border-color: transparent !important;
+  box-shadow: 0 0 0 1px black !important;
+  min-height: 44px !important;
+}
+.css-t3ipsp-control:hover {
+  border-color: transparent !important;
+}
+
+.css-16xfy0z-control {
+  background-color: rgb(236 239 241 / 1) !important;
+  border-style: solid;
+  border-color: rgb(158 158 158 / 1) !important;
+  border-width: 1px !important;
+  color: rgb(69 90 100 / 1) !important;
+  border-radius: 0.375rem !important;
+}
+
+.css-olqui2-singleValue {
+  color: rgb(69 90 100 / 1) !important;
+  font-size: 16px !important;
+}
+
+.css-1jqq78o-placeholder {
+  color: rgb(107 114 128) !important;
+  font-size: 16px !important;
+  font-weight: normal !important;
+}
+/* Estilo para ocultar todo al imprimir, excepto el contenido a imprimir */
+@media print {
+  /* body * {
+    display: none;
+  }
+  
+  #container-print {
+    display: block !important;
+  } */
+}
